@@ -2,7 +2,7 @@ import random
 import matplotlib.pyplot as plt
 
 
-def create_maze(width=81, height=51):
+def create_maze(width=50, height=50):
     shape = ((height // 2) * 2 + 1, (width // 2) * 2 + 1)  # Only odd shapes
     complexity = 0.75
     density = 0.75
@@ -12,9 +12,9 @@ def create_maze(width=81, height=51):
     # Build actual maze
     Z = [[0] * shape[1] for _ in range(shape[0])]
     # Fill borders
-    for x in range(0, shape[1]):
+    for x in range(shape[1]):
         Z[0][x] = Z[-1][x] = 1
-    for y in range(0, shape[0]):
+    for y in range(shape[0]):
         Z[y][0] = Z[y][-1] = 1
     # Make aisles
     for _ in range(density):
@@ -57,6 +57,8 @@ def plot_maze_visualisation(Z):
 if __name__ == '__main__':
     width = int(input('Enter maze width: '))
     height = int(input('Enter maze height: '))
+
     maze = create_maze(width, height)
+
     print_maze(maze)
     plot_maze_visualisation(maze)
