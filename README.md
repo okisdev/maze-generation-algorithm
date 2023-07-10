@@ -6,6 +6,7 @@ This project is a collection of maze generation algorithms implemented in Python
 
 -   [Depth-First Search (Recursive Backtracker)](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Randomized_depth-first_search)
 -   [Prim's](<https://en.wikipedia.org/wiki/Maze_generation_algorithm#Iterative_randomized_Prim's_algorithm_(without_stack,_without_sets)>) (TBW)
+-   [Recursive Division](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Recursive_division_method) (TBW)
 
 ## LICENSE
 
