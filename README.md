@@ -8,6 +8,10 @@ This project is a collection of maze generation algorithms implemented in Python
 -   [Prim's](<https://en.wikipedia.org/wiki/Maze_generation_algorithm#Iterative_randomized_Prim's_algorithm_(without_stack,_without_sets)>) (TBW)
 -   [Recursive Division](https://en.wikipedia.org/wiki/Maze_generation_algorithm#Recursive_division_method) (TBW)
 
+## Reference
+
+-   https://emmilco.github.io/path_finder/
+
 ## LICENSE
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
